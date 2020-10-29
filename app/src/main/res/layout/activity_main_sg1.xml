@@ -51,7 +51,6 @@
                 android:gravity="center_vertical"
                 android:textSize="28dp"/>
 
-
         </LinearLayout>
 
     </LinearLayout>
@@ -99,17 +98,7 @@
                         app:layout_constraintVertical_bias="0.6" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="5dp"
-                    android:fontFamily="@font/hnmedium"
-                    android:text="Status Gizi"
-                    android:textColor="@color/black"
-                    android:textSize="18dp"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -120,37 +109,193 @@
                     android:text="@string/pengertian_status"
                     android:textColor="@color/rodok_black"
                     android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Pengukuran Status Gizi Wanita Usia Subur (WUS)"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="1.  Indeks Masa Tubuh (IMT) "
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnregular"
+                    android:text="@string/imt1"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
+                <ImageView
+                    android:layout_width="182dp"
+                    android:layout_height="88dp"
+                    android:background="@drawable/imt"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="12dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Klasifikasi Ambang Batas IMT Asia (WHO)"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <ImageView
+                    android:layout_width="355dp"
+                    android:layout_gravity="center"
+                    android:layout_height="152dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/tabe_imt"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="2. Lingkar Lengan Atas (LLA) "
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnregular"
+                    android:text="@string/lla"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="10dp">
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:background="gre"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                       <ImageView
+                           android:layout_width="176dp"
+                           android:layout_height="136dp"
+                           android:layout_gravity="center"
+                           android:background="@drawable/llaaa"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/ic_bg_purplewishj"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/hnmedium"
+                            android:layout_marginTop="10dp"
+                            android:text="Kurang Energi Kronis :"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/hnregular"
+                            android:layout_marginBottom="10dp"
+                            android:text="LLA <23,5 cm"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="3. Presentase Lemak Tubuh"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnregular"
+                    android:text="@string/lmktubh"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Klasifikasi Standar Pengukuran Tebal Lemak Bawah Kulit"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <ImageView
+                    android:layout_width="355dp"
+                    android:layout_gravity="center"
+                    android:layout_height="152dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/tabe_imt"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="4. Rasio Lingkar Pinggang Panggul"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnregular"
+                    android:text="@string/rlpp"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
+                <ImageView
+                    android:layout_width="182dp"
+                    android:layout_height="88dp"
+                    android:background="@drawable/rlpp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"/>
 
             </LinearLayout>
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
-                android:layout_gravity="left"
-                android:foregroundGravity="left">
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/wsus_pengukuran"
-                    android:layout_width="355dp"
-                    android:layout_height="66dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
-                    android:background="@drawable/ic_buttonsubmenu"
-                    android:hapticFeedbackEnabled="true"
-                    android:textAlignment="textStart"
-                    android:textAllCaps="false"
-                    android:fontFamily="@font/hnlight"
-                    android:textSize="18dp"
-                    android:paddingLeft="10dp"
-                    android:text="Pengukuran Status Gizi Wanita Usia Subur (WUS)"
-                    android:elevation="3dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.177"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.216" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"

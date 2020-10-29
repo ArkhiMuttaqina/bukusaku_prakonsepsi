@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BukuSakuGiziPrakonsepsi">
-        <activity android:name=".kzgp1.kzgp1_vitamin"></activity>
+        <activity android:name=".sg1.sg1_faktor"></activity>
+        <activity android:name=".kzgp1.kzgp1_vitamin" />
         <activity android:name=".dgz1.main_dg1" />
         <activity android:name=".mg1.main_mg1" />
         <activity android:name=".kzgp1.main_kzgp1" />

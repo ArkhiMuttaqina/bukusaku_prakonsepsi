@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".mg1.main_mg1">
-
+    tools:context=".sg1.sg1_faktor">
     <LinearLayout
         android:id="@+id/heading"
         android:orientation="vertical"
@@ -42,7 +41,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:text="Masalah Gizi"
+                android:text="Faktor Pengaruh Status Gizi"
                 android:textAllCaps="false"
                 android:layout_gravity="left"
                 android:layout_marginStart="10dp"
@@ -107,16 +106,36 @@
                     android:layout_marginTop="1dp"
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/hnmedium"
-                    android:text="Anemia"
+                    android:text="Faktor-faktor yang Mempengaruhi Status Gizi "
                     android:textColor="@color/black"
                     android:textSize="18dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="1dp"
+                    android:fontFamily="@font/hnregular"
+                    android:text="@string/faktor_berikur"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Faktor eksternal yang dapat mempengaruhi status gizi seseorang dapat dilihat sebagai berikut:"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginStart="12dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
-                    android:text="a. Pengertian Anemia "
+                    android:text="1. Pendapatan"
                     android:textColor="@color/black"
                     android:textSize="12dp"/>
                 <TextView
@@ -126,23 +145,36 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/hnregular"
-                    android:text="@string/anemiaadel"
+                    android:text="@string/pndptn"
                     android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="2. Pendidikan"
+                    android:textColor="@color/black"
                     android:textSize="12dp"/>
 
-                <ImageView
-                    android:layout_width="329dp"
-                    android:layout_height="180dp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/anemia"
-                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnregular"
+                    android:text="@string/pndidikan"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="12dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
-                    android:text="b. Penyebab Anemia "
+                    android:text="3. Pekerjaan "
                     android:textColor="@color/black"
                     android:textSize="12dp"/>
                 <TextView
@@ -152,7 +184,26 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="2dp"
                     android:fontFamily="@font/hnregular"
-                    android:text="@string/penyebab_anem"
+                    android:text="@string/pkrjaan"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="4. Budaya "
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="2dp"
+                    android:fontFamily="@font/hnregular"
+                    android:text="@string/budya"
                     android:textColor="@color/rodok_black"
                     android:textSize="12dp"/>
                 <TextView
@@ -161,8 +212,8 @@
                     android:layout_marginStart="18dp"
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="5dp"
-                    android:fontFamily="@font/hnregular"
-                    android:text="@string/penyebab_anemi2"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Faktor eksternal yang dapat mempengaruhi status gizi seseorang dapat dilihat sebagai berikut:"
                     android:textColor="@color/rodok_black"
                     android:textSize="12dp"/>
                 <TextView
@@ -171,7 +222,7 @@
                     android:layout_marginStart="12dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
-                    android:text="c. Gejala Anemia "
+                    android:text="1. Usia "
                     android:textColor="@color/black"
                     android:textSize="12dp"/>
                 <TextView
@@ -179,9 +230,47 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="18dp"
                     android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="2dp"
+                    android:layout_marginBottom="5dp"
                     android:fontFamily="@font/hnregular"
-                    android:text="@string/gejala_anemia"
+                    android:text="@string/usia"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="2. Asupan "
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnregular"
+                    android:text="@string/asupan"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="3. Infeksi "
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnregular"
+                    android:text="@string/inpeksi"
                     android:textColor="@color/rodok_black"
                     android:textSize="12dp"/>
                 <TextView
@@ -190,11 +279,12 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="16dp"
                     android:layout_marginTop="1dp"
-                    android:layout_marginBottom="5dp"
+                    android:layout_marginBottom="6dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="Kekurangan Energi Kronis "
                     android:textColor="@color/black"
                     android:textSize="18dp"/>
+
 
                 <TextView
                     android:layout_width="match_parent"
