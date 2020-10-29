@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.credeative.giziprakonsepsi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BukuSakuGiziPrakonsepsi">
+        <activity android:name=".kzgp1.kzgp1_vitamin"></activity>
+        <activity android:name=".dgz1.main_dg1" />
+        <activity android:name=".mg1.main_mg1" />
+        <activity android:name=".kzgp1.main_kzgp1" />
+        <activity android:name=".sg1.main_sg1" />
+        <activity android:name=".gp1.main_gp1" />
+        <activity android:name=".home_main" />
+        <activity
+            android:name=".introactivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_introactivity"
+            android:theme="@style/Theme.BukuSakuGiziPrakonsepsi.Fullscreen" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

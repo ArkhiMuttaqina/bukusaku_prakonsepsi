@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dgz1.main_dg1">
+
+    <LinearLayout
+        android:id="@+id/heading"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/subhead1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/kembali"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_arrow_left"
+                android:background="@color/white"
+                android:foregroundGravity="right"
+                android:layout_marginStart="8dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/subhead2"
+            android:gravity="left"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Diet Gizi Prakonsepsi"
+                android:textAllCaps="false"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/hnlight"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:textSize="28dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="4dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginEnd="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="4dp"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="left"
+                    android:id="@+id/gizi_pee">
+
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/gizi_ps"
+                        android:layout_width="385dp"
+                        android:layout_height="170dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/bb2sauwu"
+                        android:hapticFeedbackEnabled="true"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.509"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.6" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Penuhi kebutuhan gizi dengan menerapkan B2SA"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:layout_marginEnd="2dp"
+                        android:background="@drawable/really"/>
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:layout_marginStart="2dp"
+                        android:background="@drawable/bun_tumpeng_bun"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnregular"
+                    android:layout_marginTop="10dp"
+                    android:text=" 1. Beragam, semakin beragam jenis makanan maka semakin lengkap kandungan gizinya \n 2. Bergizi, makanan yang mengandung zat gizi makro (Karbohidrat, Protein, dan Lemak) dan zat gizi mikro (vitamin dan mineral)
+\n 3. Seimbang, Jumlahnya harus sesuai dengan kebutuhan per hari
+\n 4. Aman, Terhindar dari bahaya kimia, fisik, dan biologis
+"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Diet Menaikkan Berat Badan Yang Tepat"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:background="gre"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="18dp"
+                            android:fontFamily="@font/hnregular"
+                            android:text="• Prinsip Gizi Seimbang"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="18dp"
+                            android:fontFamily="@font/hnregular"
+                            android:text="• Penambahan kalori 500kkal/hari"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="18dp"
+                            android:fontFamily="@font/hnregular"
+                            android:text="• Tidak mengikuti diet kekinian"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/ic_bg_purplewishj"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/hnmedium"
+                            android:layout_marginTop="10dp"
+                            android:text="Kenaikan berat badan yang normal :"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/hnregular"
+                            android:layout_marginBottom="10dp"
+                            android:text="0,5 – 1 kg/minggu"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Diet Menurunkan Berat Badan Yang Tepat"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:background="gre"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="18dp"
+                            android:fontFamily="@font/hnregular"
+                            android:text="• Prinsip Gizi Seimbang"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="18dp"
+                            android:fontFamily="@font/hnregular"
+                            android:text="• Penurunan kalori maksimal 500kkal / hari"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="18dp"
+                            android:fontFamily="@font/hnregular"
+                            android:text="• Tidak mengikuti diet kekinian"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/ic_bg_purplewishj"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/hnmedium"
+                            android:layout_marginTop="10dp"
+                            android:text="Penurunan berat badan yang normal :"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/hnregular"
+                            android:layout_marginBottom="10dp"
+                            android:text="0,5 – 1 kg/minggu"
+                            android:textColor="@color/rodok_black"
+                            android:textSize="12dp"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Contoh Menu Periode Prakonsepsi"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Menu hari pertama"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <ImageView
+                    android:layout_width="355dp"
+                    android:layout_gravity="center"
+                    android:layout_height="326dp"
+                    android:background="@drawable/tabel_hr_pertama"/>
+                <ImageView
+                    android:layout_width="355dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="122dp"
+                    android:background="@drawable/nilaig_hrpertama"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Menu hari kedua"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <ImageView
+                    android:layout_width="355dp"
+                    android:layout_gravity="center"
+                    android:layout_height="326dp"
+                    android:background="@drawable/tabel_hr_kedua"/>
+                <ImageView
+                    android:layout_width="355dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="122dp"
+                    android:background="@drawable/nilaig_hrkedua"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Menu hari ketiga"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+                <ImageView
+                    android:layout_width="355dp"
+                    android:layout_gravity="center"
+                    android:layout_height="326dp"
+                    android:background="@drawable/tabel_hr_ketigha"/>
+                <ImageView
+                    android:layout_width="355dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="122dp"
+                    android:background="@drawable/nilaig_hrketioga"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="left"
+                android:foregroundGravity="left">
+
+                <ImageView
+                    android:layout_width="375dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:outlineSpotShadowColor="@color/rodok_black"
+                    android:background="@drawable/bg_suggest"
+                    android:hapticFeedbackEnabled="true"
+                    android:foregroundGravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.156"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="0dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:fontFamily="@font/hnmedium"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="32dp"
+                        android:gravity="left"
+                        android:text="Mungkin Tertarik ? "
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/link1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:fontFamily="@font/hnmedium"
+                        android:layout_marginEnd="32dp"
+                        android:gravity="left"
+                        android:text="Masalah Gizi "
+                        android:textColor="@color/darkk_purple"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/link2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:fontFamily="@font/hnmedium"
+                        android:layout_marginEnd="32dp"
+                        android:gravity="left"
+                        android:text="Masalah Kamu :) "
+                        android:textColor="@color/darkk_purple"
+                        android:textSize="14sp" />
+
+
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>
