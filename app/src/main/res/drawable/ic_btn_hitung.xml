@@ -1,0 +1,24 @@
+<!-- drawable/btn_hitung.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="353dp"
+    android:height="41dp"
+    android:viewportWidth="353"
+    android:viewportHeight="41"
+    >
+
+  <group>
+
+    <clip-path
+        android:pathData="M4 0H349C351.209 0 353 1.79086 353 4V37C353 39.2091 351.209 41 349 41H4C1.79086 41 0 39.2091 0 37V4C0 1.79086 1.79086 0 4 0Z"
+        />
+
+    <path
+        android:pathData="M0 0V41H353V0"
+        android:fillColor="#FCB01A"
+        />
+
+  </group>
+
+</vector>

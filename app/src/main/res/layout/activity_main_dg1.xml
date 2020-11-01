@@ -160,7 +160,7 @@
                     android:layout_marginBottom="10dp">
                     <LinearLayout
                         android:layout_width="190dp"
-                        android:background="gre"
+                        android:background="@drawable/ic_bg_greenwish"
                         android:orientation="vertical"
                         android:layout_height="wrap_content">
                         <TextView
@@ -238,7 +238,7 @@
                     android:layout_marginBottom="10dp">
                     <LinearLayout
                         android:layout_width="190dp"
-                        android:background="gre"
+                        android:background="@drawable/ic_bg_greenwish"
                         android:orientation="vertical"
                         android:layout_height="wrap_content">
                         <TextView

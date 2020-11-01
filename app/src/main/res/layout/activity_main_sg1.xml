@@ -191,7 +191,7 @@
                     android:layout_marginBottom="10dp">
                     <LinearLayout
                         android:layout_width="190dp"
-                        android:background="gre"
+                        android:background="@drawable/ic_bg_greenwish"
                         android:orientation="vertical"
                         android:layout_height="wrap_content">
                        <ImageView
@@ -224,7 +224,7 @@
                             android:gravity="center"
                             android:fontFamily="@font/hnregular"
                             android:layout_marginBottom="10dp"
-                            android:text="LLA <23,5 cm"
+                            android:text="ajsh"
                             android:textColor="@color/rodok_black"
                             android:textSize="12dp"/>
 
