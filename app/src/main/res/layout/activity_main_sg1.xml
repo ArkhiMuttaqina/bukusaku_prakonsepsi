@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".sg1.main_sg1">
 
     <LinearLayout
@@ -22,7 +23,7 @@
                 android:id="@+id/kembali"
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_arrow_left"
+                android:src="@drawable/ic_arrow_leftz"
                 android:background="@color/white"
                 android:foregroundGravity="right"
                 android:layout_marginStart="8dp"
@@ -140,7 +141,7 @@
                     android:textColor="@color/rodok_black"
                     android:textSize="12dp"/>
                 <ImageView
-                    android:layout_width="182dp"
+                    android:layout_width="196dp"
                     android:layout_height="88dp"
                     android:background="@drawable/imt"
                     android:layout_gravity="center"
@@ -183,15 +184,16 @@
                     android:textColor="@color/rodok_black"
                     android:textSize="12dp"/>
                 <LinearLayout
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_gravity="center"
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:gravity="center_vertical"
+
                     android:layout_marginBottom="10dp">
                     <LinearLayout
                         android:layout_width="190dp"
-                        android:background="@drawable/ic_bg_greenwish"
+                        android:layout_marginEnd="10dp"
                         android:orientation="vertical"
                         android:layout_height="wrap_content">
                        <ImageView
@@ -207,7 +209,8 @@
                         android:gravity="center_vertical|center_horizontal"
                         android:background="@drawable/ic_bg_purplewishj"
                         android:orientation="vertical"
-                        android:layout_height="wrap_content">
+                        android:padding="10dp"
+                        android:layout_height="match_parent">
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -224,7 +227,7 @@
                             android:gravity="center"
                             android:fontFamily="@font/hnregular"
                             android:layout_marginBottom="10dp"
-                            android:text="ajsh"
+                            android:text="@string/llaaaaaa"
                             android:textColor="@color/rodok_black"
                             android:textSize="12dp"/>
 
@@ -288,7 +291,7 @@
                     android:textColor="@color/rodok_black"
                     android:textSize="12dp"/>
                 <ImageView
-                    android:layout_width="182dp"
+                    android:layout_width="196dp"
                     android:layout_height="88dp"
                     android:background="@drawable/rlpp"
                     android:layout_gravity="center"
@@ -296,19 +299,24 @@
 
             </LinearLayout>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
-                android:layout_gravity="left"
-                android:foregroundGravity="left">
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/Faktor_Gizi"
-                    android:layout_width="355dp"
-                    android:layout_height="66dp"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnmedium"
+                    android:text="Baca Halaman Selanjutnya "
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+                <Button
+                    android:id="@+id/Faktor_Gizi"
+                    android:layout_width="match_parent"
+                    android:layout_height="66dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
                     android:background="@drawable/ic_buttonsubmenu"
                     android:hapticFeedbackEnabled="true"
                     android:textAlignment="textStart"
@@ -317,14 +325,7 @@
                     android:textSize="18dp"
                     android:paddingLeft="10dp"
                     android:text="Faktor-faktor yang Mempengaruhi Status Gizi"
-                    android:elevation="3dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.177"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.216" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                    android:elevation="3dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -334,7 +335,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="5dp"
                 android:fontFamily="@font/hnmedium"
-                android:text="Baca Halaman Selanjutnya "
+                android:text="Lompat judul selanjutnya "
                 android:textColor="@color/black"
                 android:textSize="18dp"/>
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -344,12 +345,12 @@
                 android:layout_gravity="left"
                 android:foregroundGravity="left">
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/go_to_statussGizi"
-                    android:layout_width="355dp"
+                <Button
+                    android:id="@+id/go_to_mslhgz"
+                    android:layout_width="match_parent"
                     android:layout_height="66dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
                     android:background="@drawable/ic_buttonsubmenu"
                     android:hapticFeedbackEnabled="true"
                     android:textAlignment="textStart"
@@ -357,7 +358,7 @@
                     android:fontFamily="@font/hnlight"
                     android:textSize="18dp"
                     android:paddingLeft="10dp"
-                    android:text="Masalah Gizi dalam periode prakonsepsi"
+                    android:text="Masalah gizi dalam periode prakonsepsi"
                     android:elevation="3dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -377,10 +378,10 @@
                 android:foregroundGravity="left">
 
                 <ImageView
-                    android:layout_width="375dp"
+                    android:layout_width="match_parent"
                     android:layout_height="120dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
                     android:outlineSpotShadowColor="@color/rodok_black"
                     android:background="@drawable/bg_suggest"
                     android:hapticFeedbackEnabled="true"
@@ -421,7 +422,7 @@
                         android:fontFamily="@font/hnmedium"
                         android:layout_marginEnd="32dp"
                         android:gravity="left"
-                        android:text="Masalah Gizi "
+                        android:text="Masalah Gizi"
                         android:textColor="@color/darkk_purple"
                         android:textSize="14sp" />
                     <TextView
@@ -432,7 +433,8 @@
                         android:fontFamily="@font/hnmedium"
                         android:layout_marginEnd="32dp"
                         android:gravity="left"
-                        android:text="Masalah Kamu :) "
+                        android:layout_marginTop="10dp"
+                        android:text="Hitung status gizi "
                         android:textColor="@color/darkk_purple"
                         android:textSize="14sp" />
 

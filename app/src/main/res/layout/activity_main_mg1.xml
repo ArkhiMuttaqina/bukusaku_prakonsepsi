@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".mg1.main_mg1">
 
     <LinearLayout
@@ -22,7 +23,7 @@
                 android:id="@+id/kembali"
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_arrow_left"
+                android:src="@drawable/ic_arrow_leftz"
                 android:background="@color/white"
                 android:foregroundGravity="right"
                 android:layout_marginStart="8dp"
@@ -252,12 +253,12 @@
                 android:layout_gravity="left"
                 android:foregroundGravity="left">
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/go_to_statussGizi"
-                    android:layout_width="355dp"
+                <Button
+                    android:id="@+id/goto_kebuthgizi"
+                    android:layout_width="match_parent"
                     android:layout_height="66dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
                     android:background="@drawable/ic_buttonsubmenu"
                     android:hapticFeedbackEnabled="true"
                     android:textAlignment="textStart"
@@ -265,7 +266,7 @@
                     android:fontFamily="@font/hnlight"
                     android:textSize="18dp"
                     android:paddingLeft="10dp"
-                    android:text="Masalah Gizi dalam periode prakonsepsi"
+                    android:text="Kebutuhan zat gizi prakonsepsi"
                     android:elevation="3dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -279,16 +280,17 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
+                android:gravity="center"
                 android:layout_marginBottom="180dp"
                 android:layout_marginTop="20dp"
                 android:layout_gravity="left"
                 android:foregroundGravity="left">
 
                 <ImageView
-                    android:layout_width="375dp"
+                    android:layout_width="match_parent"
                     android:layout_height="120dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
                     android:outlineSpotShadowColor="@color/rodok_black"
                     android:background="@drawable/bg_suggest"
                     android:hapticFeedbackEnabled="true"
@@ -317,7 +319,7 @@
                         android:layout_marginBottom="16dp"
                         android:layout_marginEnd="32dp"
                         android:gravity="left"
-                        android:text="Mungkin Tertarik ? "
+                        android:text=" Diet Gizi Prakonsepsi"
                         android:textColor="@color/black"
                         android:textSize="14sp" />
 
@@ -329,7 +331,7 @@
                         android:fontFamily="@font/hnmedium"
                         android:layout_marginEnd="32dp"
                         android:gravity="left"
-                        android:text="Masalah Gizi "
+                        android:text="Status Gizi "
                         android:textColor="@color/darkk_purple"
                         android:textSize="14sp" />
                     <TextView
@@ -340,7 +342,7 @@
                         android:fontFamily="@font/hnmedium"
                         android:layout_marginEnd="32dp"
                         android:gravity="left"
-                        android:text="Masalah Kamu :) "
+                        android:text="Gizi Prakonsepsi "
                         android:textColor="@color/darkk_purple"
                         android:textSize="14sp" />
 

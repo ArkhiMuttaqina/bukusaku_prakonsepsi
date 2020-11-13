@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <vector
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:aapt="http://schemas.android.com/aapt"
-        android:width="351dp"
-        android:height="478dp"
-        android:viewportWidth="351"
-        android:viewportHeight="478"
-        >
+<!-- drawable/bg_popup.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="351dp"
+    android:height="478dp"
+    android:viewportWidth="351"
+    android:viewportHeight="478"
+    >
 
-        <group>
+    <group>
 
-            <clip-path
-                android:pathData="M4 0H347C349.209 0 351 1.79086 351 4V474C351 476.209 349.209 478 347 478H4C1.79086 478 0 476.209 0 474V4C0 1.79086 1.79086 0 4 0Z"
-                />
+        <clip-path
+            android:pathData="M14 0H337C344.732 0 351 6.26801 351 14V464C351 471.732 344.732 478 337 478H14C6.26801 478 0 471.732 0 464V14C0 6.26801 6.26801 0 14 0Z"
+            />
 
-            <path
-                android:pathData="M0 0V478H351V0"
-                android:fillColor="#783F8F"
-                />
+        <path
+            android:pathData="M0 0V478H351V0"
+            android:fillColor="#783F8F"
+            />
 
-        </group>
+    </group>
 
-    </vector>
+</vector>
 

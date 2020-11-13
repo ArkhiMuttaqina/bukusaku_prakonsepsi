@@ -1,18 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".tentang_aplikasi">
 
+
+    <LinearLayout
+        android:id="@+id/heading"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/subhead1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/kembali"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_arrow_leftz"
+                android:background="@color/white"
+                android:foregroundGravity="right"
+                android:layout_marginStart="8dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/subhead2"
+            android:gravity="left"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Tentang Aplikasi"
+                android:textAllCaps="false"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/hnlight"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:textSize="24dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="240dp"
+        android:background="@drawable/logo_logtentang"
+        android:layout_gravity="center"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/hnregular"
+        android:text="Aplikasi ini di buat oleh NervD, Pemeliharaan aplikasi oleh Arkhi Muttaqinav "
+        android:textColor="@color/rodok_black"
+        android:textSize="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tentang Peneliti"
+        android:textAllCaps="false"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/hnlight"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:textSize="18dp"
+        tools:ignore="RtlCompat" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/hnregular"
+        android:text="@string/tentangpeneliti"
+        android:textColor="@color/black"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/hnregular"
+        android:text="Email : methanandaags@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/hnregular"
+        android:text="No. Telp : 087856061528"
+        android:textColor="@color/black"
+        android:textSize="14dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

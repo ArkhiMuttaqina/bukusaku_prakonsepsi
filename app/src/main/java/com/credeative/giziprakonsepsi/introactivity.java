@@ -52,8 +52,8 @@ public class introactivity extends AppCompatActivity {
 
         if (restorePrefData()) {
 
-            Intent mainActivity = new Intent(getApplicationContext(),home_main.class );
-            startActivity(mainActivity);
+            Intent homeMain = new Intent(getApplicationContext(),home_main.class );
+            startActivity(homeMain);
             finish();
 
 
@@ -75,10 +75,10 @@ public class introactivity extends AppCompatActivity {
         // fill list screen
 
         final List<screenitembund> mList = new ArrayList<>();
-        mList.add(new screenitembund("Persiapkan Semuanya","Bun sebelum hamil sebaiknya anda mempersiapkan kondisi tubuh dan asupan gizi anda",R.drawable.wcom_1));
-        mList.add(new screenitembund("Semua lengkap untuk bunda","Kami mempersiapkan literasi Prakonsepsi untuk anda dan calon bayi anda. Pastikan suami anda mengerti gizi sebelum pembuahan terjadi secara sengaja.",R.drawable.wcom_2));
-        mList.add(new screenitembund("Pastikan semuanya di Hitung","Tidak hanya uang bulanan saja bun yang dihitung tetapi Gizi untuk persiapan hamil agar sikecil tumbuh besar menjadi diktaktor",R.drawable.wcom_3));
-        mList.add(new screenitembund("Dah Siap Bund ?","Yuk, Baca dulu sebelum berkembang biak. agar memiliki anak yang sehat dan ibu kuat. pastikan suami anda mempersiapkan Ngidam Starterpack",R.drawable.wcom_4));
+        mList.add(new screenitembund("Persiapkan semuanya","Proporsi risiko kurang energi kronis pada wanita usia subur tidak hamil sebesar 14,5% dan proporsi anemia pada ibu hamil sebesar 48,9% (Kemenkes, 2018).",R.drawable.wcom_1));
+        mList.add(new screenitembund("Tidak bisa diabaikan","Wanita dengan status gizi kurang dan anemia berisiko tinggi untuk melahirkan bayi berat badan lahir rendah (BBLR) dan prematur.",R.drawable.wcom_2));
+        mList.add(new screenitembund("Dampaknya tidak hanya bayi, Namun ibu hamil juga bisa berdampak","Selain berdampak pada bayi, kondisi gizi yang kurang baik dapat menyebabkan kesakitan dan kematian pada ibu hamil.",R.drawable.wcom_3));
+        mList.add(new screenitembund("Penuhi gizi prakonsepsi sejak dini","Pentingnya pemenuhan kebutuhan gizi bagi seorang calon ibu untuk menjamin kesehatannya dan status gizinya agar selama proses kehamilan dapat melahirkan bayi yang sehat.",R.drawable.wcom_4));
         // setup viewpager
         screenPager =findViewById(R.id.screen_viewpager);
         introViewPagerAdapter = new viewpageIntro(this,mList);

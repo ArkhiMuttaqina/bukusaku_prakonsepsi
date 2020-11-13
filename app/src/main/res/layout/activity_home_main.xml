@@ -1,296 +1,322 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".home_main">
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/purple_500"
+        android:src="@drawable/ic_count"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal" />
+
     <LinearLayout
-        android:id="@+id/heading"
-        android:orientation="vertical"
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="100dp">
-        <LinearLayout
-            android:orientation="vertical"
-            android:id="@+id/subhead1"
-            android:layout_width="match_parent"
-            android:layout_height="50dp">
-
-        </LinearLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:orientation="horizontal"
-            android:id="@+id/subhead2"
-            android:gravity="center_horizontal"
-
+            android:id="@+id/heading"
             android:layout_width="match_parent"
-            android:layout_height="50dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:text="Beranda"
-                android:textAllCaps="false"
-                android:layout_gravity="left"
-                android:layout_marginStart="10dp"
-                android:fontFamily="@font/hnbold"
-                android:textColor="@color/black"
-                android:gravity="center_vertical"
-                android:textSize="28dp"/>
+            android:layout_height="100dp"
+            android:orientation="vertical">
 
             <LinearLayout
-                android:layout_gravity="end"
-                android:gravity="right"
-                android:layout_marginStart="10dp"
-                android:orientation="horizontal"
-                android:foregroundGravity="right"
+                android:id="@+id/subhead1"
                 android:layout_width="match_parent"
-                android:layout_height="50dp">
-            <androidx.appcompat.widget.AppCompatImageButton
-                android:id="@+id/menuisi"
-                android:layout_marginEnd="10dp"
-                android:foregroundGravity="right"
-                android:layout_width="50dp"
-                android:layout_height="50dp"/>
+                android:layout_height="30dp"
+                android:orientation="vertical">
+
             </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/subhead2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/hnbold"
+                    android:gravity="center_vertical"
+                    android:text="Beranda"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="28dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="10dp"
+                    android:foregroundGravity="right"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="right|center"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/tentang"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/ic_outline_info_24"
+                        android:layout_marginEnd="10dp"
+                        android:foregroundGravity="right" />
+                </LinearLayout>
+            </LinearLayout>
+
         </LinearLayout>
 
-</LinearLayout>
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
+        <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
-            android:orientation="vertical"
-            android:layout_marginEnd="4dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginStart="4dp"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="4dp"
                 android:layout_marginBottom="10dp"
-                android:layout_gravity="left"
-                android:foregroundGravity="left"
-                android:id="@+id/gizi_pee">
+                android:orientation="vertical">
 
-                <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/gizi_ps"
-                    android:layout_width="318dp"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/gizi_pee"
+                    android:layout_width="match_parent"
                     android:layout_height="140dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:background="@drawable/gizi_p"
-                    android:hapticFeedbackEnabled="true"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.156"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0" />
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
+                    android:foregroundGravity="left">
 
-                <TextView
-                    android:id="@+id/a"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:fontFamily="@font/hnmedium"
-                    android:layout_marginEnd="32dp"
-                    android:gravity="left"
-                    android:text="Gizi Prakonsepsi"
-                    android:textColor="@color/white"
-                    android:textSize="24sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.053"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.782" />
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/gizi_ps"
+                        android:layout_width="318dp"
+                        android:layout_height="140dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/gizi_p"
+                        android:hapticFeedbackEnabled="true"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.156"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:id="@+id/a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:fontFamily="@font/hnmedium"
+                        android:gravity="left"
+                        android:text="Gizi Prakonsepsi"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.053"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.782" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:layout_gravity="left"
-                android:layout_marginBottom="10dp"
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                android:foregroundGravity="left"
-                android:id="@+id/status_pee">
-
-                <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/status_giz"
-                    android:layout_width="318dp"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/status_pee"
+                    android:layout_width="match_parent"
                     android:layout_height="140dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:background="@drawable/status_g"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.156"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0" />
+                    android:layout_gravity="left"
 
-                <TextView
-                    android:id="@+id/statussssss"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginEnd="32dp"
-                    android:fontFamily="@font/hnmedium"
-                    android:gravity="left"
-                    android:text="Status Gizi"
-                    android:textColor="@color/white"
-                    android:textSize="24sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.053"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.782" />
+                    android:layout_marginBottom="10dp"
+                    android:foregroundGravity="left">
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/status_giz"
+                        android:layout_width="318dp"
+                        android:layout_height="140dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/status_g"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.156"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:layout_gravity="left"
-                android:layout_marginBottom="10dp"
+                    <TextView
+                        android:id="@+id/statussssss"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:fontFamily="@font/hnmedium"
+                        android:gravity="left"
+                        android:text="Status Gizi"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.053"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.782" />
 
-                android:foregroundGravity="left"
-                android:id="@+id/masalah">
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/masalah_gizi"
-                    android:layout_width="318dp"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/masalah"
+                    android:layout_width="match_parent"
                     android:layout_height="140dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:background="@drawable/masalah_gi"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.156"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0" />
+                    android:layout_gravity="left"
 
-                <TextView
-                    android:id="@+id/masalahg"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginEnd="32dp"
-                    android:fontFamily="@font/hnmedium"
-                    android:gravity="left"
-                    android:text="Masalah Gizi"
-                    android:textColor="@color/white"
-                    android:textSize="24sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.053"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.782" />
+                    android:layout_marginBottom="10dp"
+                    android:foregroundGravity="left">
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:layout_gravity="left"
-                android:foregroundGravity="left"
-                android:layout_marginBottom="10dp"
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/masalah_gizi"
+                        android:layout_width="318dp"
+                        android:layout_height="140dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/masalah_gi"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.156"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
 
-                android:id="@+id/kebuth">
+                    <TextView
+                        android:id="@+id/masalahg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:fontFamily="@font/hnmedium"
+                        android:gravity="left"
+                        android:text="Masalah Gizi"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.053"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.782" />
 
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/kebutuhan_gizi"
-                    android:layout_width="318dp"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/kebuth"
+                    android:layout_width="match_parent"
                     android:layout_height="140dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:background="@drawable/kebutuhan_g"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.156"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0" />
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="10dp"
 
-                <TextView
-                    android:id="@+id/kebuthg"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginEnd="32dp"
-                    android:fontFamily="@font/hnmedium"
-                    android:gravity="left"
-                    android:text="Kebutuhan Gizi"
-                    android:textColor="@color/white"
-                    android:textSize="24sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.053"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.782" />
+                    android:foregroundGravity="left">
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:layout_gravity="left"
-                android:layout_marginBottom="10dp"
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/kebutuhan_gizi"
+                        android:layout_width="318dp"
+                        android:layout_height="140dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/kebutuhan_g"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.156"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
 
-                android:foregroundGravity="left"
-                android:id="@+id/dietg">
+                    <TextView
+                        android:id="@+id/kebuthg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:fontFamily="@font/hnmedium"
+                        android:gravity="left"
+                        android:text="Kebutuhan Gizi"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.053"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.782" />
 
-                <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/diet_g"
-                    android:layout_width="318dp"
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/dietg"
+                    android:layout_width="match_parent"
                     android:layout_height="140dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:background="@drawable/diet_g"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.156"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0" />
+                    android:layout_gravity="left"
 
-                <TextView
-                    android:id="@+id/dietgz"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginEnd="32dp"
-                    android:fontFamily="@font/hnmedium"
-                    android:gravity="left"
-                    android:text="Diet Gizi Prakonsepsi"
-                    android:textColor="@color/white"
-                    android:textSize="24sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.053"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.782" />
+                    android:layout_marginBottom="10dp"
+                    android:foregroundGravity="left">
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/diet_g"
+                        android:layout_width="318dp"
+                        android:layout_height="140dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/diet_g"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.156"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/dietgz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:fontFamily="@font/hnmedium"
+                        android:gravity="left"
+                        android:text="Diet Gizi Prakonsepsi"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.053"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.782" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-
-        </LinearLayout>
-
-
-    </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
 
 
-</LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

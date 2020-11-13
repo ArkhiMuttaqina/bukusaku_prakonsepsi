@@ -18,17 +18,22 @@
         <activity android:name=".sg1.main_sg1" />
         <activity android:name=".gp1.main_gp1" />
         <activity android:name=".home_main" />
+        <activity android:name=".tentang_aplikasi" />
         <activity
             android:name=".introactivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_introactivity"
             android:theme="@style/Theme.BukuSakuGiziPrakonsepsi.Fullscreen" />
-        <activity android:name=".splashscreen">
+        <activity android:name=".splashscreen"
+                android:theme="@style/Themestart.BukuSakuGiziPrakonsepsi"
+            >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 

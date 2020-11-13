@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".kzgp1.kzgp1_vitamin">
 
     <LinearLayout
@@ -22,7 +23,7 @@
                 android:id="@+id/kembali"
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_arrow_left"
+                android:src="@drawable/ic_arrow_leftz"
                 android:background="@color/white"
                 android:foregroundGravity="right"
                 android:layout_marginStart="8dp"
@@ -78,7 +79,7 @@
                 <ImageView
                     android:layout_gravity="center"
                     android:layout_width="375dp"
-                    android:layout_height="125dp"
+                    android:layout_height="135dp"
                     android:background="@drawable/vitvit_1"/>
                 <TextView
                     android:layout_width="match_parent"
@@ -135,7 +136,7 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="2dp"
                     android:fontFamily="@font/hnregular"
-                    android:text="Kebutuhan vitamin E berdasarkan dari AKG 2019 untuk wanita remaja hingga dewasa sebesar 15 mcg. "
+                    android:text="Kebutuhan vitamin D berdasarkan dari AKG 2019 untuk wanita remaja hingga dewasa sebesar 15 mcg. "
                     android:textColor="@color/rodok_black"
                     android:textSize="12dp"/>
                 <TextView
@@ -522,16 +523,16 @@ android:text="Sumber utama kalsium adalah susu dan hasil olahannya, sumber lainn
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="40dp"
                 android:layout_gravity="left"
                 android:foregroundGravity="left">
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/go_to_statussGizi"
-                    android:layout_width="355dp"
+                <Button
+                    android:id="@+id/go_to_digizi"
+                    android:layout_width="match_parent"
                     android:layout_height="66dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
                     android:background="@drawable/ic_buttonsubmenu"
                     android:hapticFeedbackEnabled="true"
                     android:textAlignment="textStart"
@@ -539,7 +540,7 @@ android:text="Sumber utama kalsium adalah susu dan hasil olahannya, sumber lainn
                     android:fontFamily="@font/hnlight"
                     android:textSize="18dp"
                     android:paddingLeft="10dp"
-                    android:text="Kebutuhan Vitamin"
+                    android:text="Diet Gizi Prakonsepsi"
                     android:elevation="3dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -549,79 +550,7 @@ android:text="Sumber utama kalsium adalah susu dan hasil olahannya, sumber lainn
                     app:layout_constraintVertical_bias="0.216" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_marginBottom="180dp"
-                android:layout_marginTop="20dp"
-                android:layout_gravity="left"
-                android:foregroundGravity="left">
 
-                <ImageView
-                    android:layout_width="375dp"
-                    android:layout_height="120dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
-                    android:outlineSpotShadowColor="@color/rodok_black"
-                    android:background="@drawable/bg_suggest"
-                    android:hapticFeedbackEnabled="true"
-                    android:foregroundGravity="center"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.156"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="10dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    tools:layout_editor_absoluteY="0dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="24dp"
-                        android:fontFamily="@font/hnmedium"
-                        android:layout_marginBottom="16dp"
-                        android:layout_marginEnd="32dp"
-                        android:gravity="left"
-                        android:text="Mungkin Tertarik ? "
-                        android:textColor="@color/black"
-                        android:textSize="14sp" />
-
-                    <TextView
-                        android:id="@+id/link1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="32dp"
-                        android:fontFamily="@font/hnmedium"
-                        android:layout_marginEnd="32dp"
-                        android:gravity="left"
-                        android:text="Masalah Gizi "
-                        android:textColor="@color/darkk_purple"
-                        android:textSize="14sp" />
-                    <TextView
-                        android:id="@+id/link2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="32dp"
-                        android:fontFamily="@font/hnmedium"
-                        android:layout_marginEnd="32dp"
-                        android:gravity="left"
-                        android:text="Masalah Kamu :) "
-                        android:textColor="@color/darkk_purple"
-                        android:textSize="14sp" />
-
-
-
-                </LinearLayout>
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>

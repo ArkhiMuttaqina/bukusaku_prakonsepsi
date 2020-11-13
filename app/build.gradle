@@ -9,9 +9,9 @@ android {
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        versionNameSuffix '1.0'
     }
 
     compileOptions {
@@ -30,6 +30,7 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
+    compile 'com.github.HITGIF:TextFieldBoxes:1.4.5'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.3'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

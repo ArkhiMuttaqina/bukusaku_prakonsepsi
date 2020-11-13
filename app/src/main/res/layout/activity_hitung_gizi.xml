@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".hitung_gizi">
 
     <LinearLayout
@@ -18,16 +19,23 @@
             android:layout_width="match_parent"
             android:layout_height="50dp">
 
-            <androidx.appcompat.widget.AppCompatImageButton
-                android:id="@+id/kembali"
-                android:layout_marginTop="4dp"
-                android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_arrow_left"
-                android:background="@color/white"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
                 android:foregroundGravity="right"
-                android:layout_marginStart="8dp"
-                android:layout_width="50dp"
-                android:layout_height="50dp"/>
+                android:gravity="left|center"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/kembali"
+                    android:layout_width="32dp"
+                    android:background="@drawable/ic_arrow_leftz"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="10dp"
+                    android:foregroundGravity="right" />
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -50,6 +58,23 @@
                 android:textColor="@color/black"
                 android:gravity="center_vertical"
                 android:textSize="28dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:layout_marginStart="10dp"
+                android:foregroundGravity="right"
+                android:gravity="right|center"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ubah"
+                    android:layout_width="28dp"
+                    android:background="@drawable/ic_edit"
+                    android:layout_height="28dp"
+                    android:layout_marginEnd="10dp"
+                    android:foregroundGravity="right" />
+            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
@@ -75,7 +100,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="160dp"
+                    android:layout_height="175dp"
                     android:layout_marginBottom="10dp"
                     android:layout_gravity="center"
                     android:foregroundGravity="center"
@@ -101,7 +126,7 @@
                             android:fontFamily="@font/hnlight"
                             android:textColor="@color/black"
                             android:textSize="18dp"
-                            android:text="Nama"/>
+                            android:text="Belum Ada Data"/>
                         <TextView
                             android:layout_marginTop="10dp"
                             android:layout_width="match_parent"
@@ -122,7 +147,7 @@
                                 android:fontFamily="@font/hnlight"
                                 android:textColor="@color/black"
                                 android:textSize="18dp"
-                                android:text="21"/>
+                                android:text="- "/>
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -161,12 +186,12 @@
                            android:text="Berat Badan"
                            android:gravity="left"
                            android:fontFamily="@font/hnbold"
-                           android:textSize="12dp"
+                           android:textSize="14dp"
                            android:textColor="@color/white"/>
                     </LinearLayout>
                     <LinearLayout
                             android:gravity="right|bottom"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="5dp"
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
@@ -178,7 +203,7 @@
                                 android:textSize="24dp"
                                 android:layout_marginEnd="3dp"
                                 android:textColor="@color/white"
-                                android:text="65"/>
+                                android:text="- "/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -206,12 +231,12 @@
                             android:text="Tinggi Badan"
                             android:gravity="left"
                             android:fontFamily="@font/hnbold"
-                            android:textSize="12dp"
+                            android:textSize="14dp"
                             android:textColor="@color/white"/>
                     </LinearLayout>
                     <LinearLayout
                         android:gravity="right|bottom"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="5dp"
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -223,7 +248,7 @@
                             android:textSize="24dp"
                             android:layout_marginEnd="3dp"
                             android:textColor="@color/white"
-                            android:text="65"/>
+                            android:text="- "/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -247,7 +272,9 @@
                 android:text="Indeks masa tubuh "
                 android:textColor="@color/black"
                 android:textSize="18dp"/>
+
             <LinearLayout
+                android:id="@+id/imt_button"
                 android:background="@drawable/imt_bbi_result"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
@@ -286,65 +313,89 @@
                 android:textColor="@color/black"
                 android:textSize="18dp"/>
             <LinearLayout
+                android:id="@+id/bbi_button"
                 android:background="@drawable/imt_bbi_result"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
                 android:padding="13dp"
                 android:orientation="vertical">
-                <TextView
-                    android:id="@+id/bbi_result"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Belum Ada Data"
-                    android:layout_marginStart="10dp"
-                    android:fontFamily="@font/hnlight"
-                    android:textColor="@color/white"
-                    android:textSize="24dp"
-                    />
-                <TextView
-                    android:id="@+id/bbi_count_result"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="18.50"
-                    android:layout_marginStart="10dp"
-                    android:fontFamily="@font/hnlight"
-                    android:textColor="@color/white"
-                    android:textSize="18dp"
-                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/bbi_result"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="00"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/hnlight"
+                        android:textColor="@color/white"
+                        android:textSize="32dp"
+                        />
+                    <TextView
+                        android:id="@+id/s"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kg"
+                        android:layout_marginStart="3dp"
+                        android:fontFamily="@font/hnlight"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"
+                        />
+                </LinearLayout>
+
+
 
             </LinearLayout>
 
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btn_hitung_aja"
-                    android:layout_width="match_parent"
-                    android:layout_height="41dp"
-                    android:background="@drawable/ic_btn_hitung"
-                    android:hapticFeedbackEnabled="true"
-                    android:textAllCaps="false"
-                    android:fontFamily="@font/hnmedium"
-                    android:textColor="@color/white"
-                    android:outlineSpotShadowColor="@color/rodok_black"
-                    android:layout_gravity="center"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:textSize="18dp"
-                    android:text="Proses Hitung"
-                    android:elevation="3dp" />
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_kembaliaja"
+            <Button
+                android:id="@+id/btn_hitung_aja"
                 android:layout_width="match_parent"
                 android:layout_height="41dp"
-                android:background="@drawable/ic_btn_bck"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/ic_btn_hitung"
+                android:elevation="3dp"
+                android:fontFamily="@font/hnmedium"
+                android:gravity="center_horizontal|center_vertical"
                 android:hapticFeedbackEnabled="true"
+                android:outlineSpotShadowColor="@color/rodok_black"
+                android:text="Proses Hitung"
                 android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="16dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/hnmedium"
-                android:textColor="@color/white"
+                android:text=" Bacaan Terkait"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/btn_status"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@drawable/ic_buttonsubmenu"
+                android:hapticFeedbackEnabled="true"
+                android:textAllCaps="false"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/hnmedium"
+                android:textColor="@color/black"
                 android:outlineSpotShadowColor="@color/rodok_black"
                 android:layout_gravity="center"
                 android:gravity="center_horizontal|center_vertical"
                 android:textSize="18dp"
-                android:text="Kemabali"
+                android:text="Status Gizi"
                 android:elevation="3dp" />
 
 
@@ -358,10 +409,10 @@
                 android:foregroundGravity="left">
 
                 <ImageView
-                    android:layout_width="375dp"
+                    android:layout_width="match_parent"
                     android:layout_height="120dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
                     android:outlineSpotShadowColor="@color/rodok_black"
                     android:background="@drawable/bg_suggest"
                     android:hapticFeedbackEnabled="true"
@@ -411,9 +462,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="32dp"
                         android:fontFamily="@font/hnmedium"
+                        android:layout_marginTop="10dp"
                         android:layout_marginEnd="32dp"
                         android:gravity="left"
-                        android:text="Masalah Kamu :) "
+                        android:text="Faktor Pengaruh Status Gizi "
                         android:textColor="@color/darkk_purple"
                         android:textSize="14sp" />
 
