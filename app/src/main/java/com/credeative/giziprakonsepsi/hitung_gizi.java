@@ -38,7 +38,7 @@ public class hitung_gizi extends AppCompatActivity {
         setContentView(R.layout.activity_hitung_gizi);
         getSupportActionBar().hide();
         opendialog();
-        countthatshit();
+        hitungtunghitung();
         LinearLayout imt_button = findViewById(R.id.imt_button);
         LinearLayout bbi_button = findViewById(R.id.bbi_button);
         TextView link1 = findViewById(R.id.link1);
@@ -101,7 +101,7 @@ public class hitung_gizi extends AppCompatActivity {
             }
         });
     }
-    private void countthatshit() {
+    private void hitungtunghitung() {
     Button btn_hitung_aja = findViewById(R.id.btn_hitung_aja);
         btn_hitung_aja.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -274,51 +274,7 @@
                     android:text="@string/inpeksi"
                     android:textColor="@color/rodok_black"
                     android:textSize="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginTop="1dp"
-                    android:layout_marginBottom="6dp"
-                    android:fontFamily="@font/hnmedium"
-                    android:text="Kekurangan Energi Kronis "
-                    android:textColor="@color/black"
-                    android:textSize="18dp"/>
 
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="18dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="5dp"
-                    android:fontFamily="@font/hnregular"
-                    android:text="@string/kurang_energi"
-                    android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginTop="1dp"
-                    android:layout_marginBottom="5dp"
-                    android:fontFamily="@font/hnmedium"
-                    android:text="Obesitas"
-                    android:textColor="@color/black"
-                    android:textSize="18dp"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="18dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="5dp"
-                    android:fontFamily="@font/hnregular"
-                    android:text="@string/obesitasss"
-                    android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
 
 
 

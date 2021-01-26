@@ -84,12 +84,12 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="1. Vitamin A"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/vitamina_1"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -109,16 +109,28 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/vitamina_2"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/hnregular"
+                    android:text="@string/rev1_kebut"
+                    android:textColor="@color/rodok_black"
+                    android:textSize="14dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="2. Vitamin D"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -128,7 +140,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/akibat_vitd"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -138,7 +150,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Kebutuhan vitamin D berdasarkan dari AKG 2019 untuk wanita remaja hingga dewasa sebesar 15 mcg. "
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -148,16 +160,16 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Vitamin D diperoleh tubuh melalui sinar matahari dan makanan. Sumber vitamin D dari makanan yaitu kuning telur, hati, mentega, dan minyak hati ikan"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="3. Vitamin E"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -167,7 +179,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/vitamin_eadlah"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -177,7 +189,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Kebutuhan vitamin E berdasarkan dari AKG 2019 untuk wanita remaja hingga dewasa sebesar 15 mcg. "
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -187,17 +199,17 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/vit_e2"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="4. Vitamin C"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -207,7 +219,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/vitc_adalah"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -217,7 +229,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/vitc_2"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -227,17 +239,17 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/vitc_3"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="5. Vitamin B6"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -247,7 +259,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/vitb6_adalah"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -257,7 +269,7 @@
                 android:fontFamily="@font/hnregular"
                 android:text="@string/vitb6_adalah2"
                 android:textColor="@color/rodok_black"
-                android:textSize="12dp"/>
+                android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -267,7 +279,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Kebutuhan Vitamin B6 berdasarkan dari AKG 2019 untuk wanita remaja hingga dewasa sebesar 1,3 mg."
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -277,17 +289,17 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Sumber vitamin B6 paling banyak di kecambah, gandum, dan serealia"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="6. Asam Folat"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -297,7 +309,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/asamvolat_adalah"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -307,7 +319,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Kebutuhan asam folat menurut AKG 2019 untuk wanita remaja hingga dewasa sebesar 400 mcg, dan terdapat penambahan kebutuhan asam folat untuk ibu hamil sebesar 200 mcg."
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -317,17 +329,17 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Sumber asam folat di sayuran hijau, kacang-kacangan, serealia, daging tanpa lemak."
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="7. Vitamin B12"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -337,7 +349,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/vitb12_adalah"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -347,7 +359,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Kebutuhan vitamin B12 menurut AKG 2019 untuk wanita remaja hingga dewasa sebesar 4 mcg. Semua vitamin B12 yang alami diperoleh dari sintesis bakteri, fungi, atau ganggang."
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -357,7 +369,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Sumber utama vitamin B12 dari protein hewani adalah susu, telur, keju, dan daging yang diperoleh akibat dari sintesis bakteri di dalam usus halus "
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -372,12 +384,12 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="1. Zat Besi"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -387,7 +399,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/zatbesi"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -397,7 +409,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/zatbesi2"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -407,17 +419,17 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/zatbesi3"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="2. Seng"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -427,7 +439,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Berdasarkan dari AKG 2019, kebutuhan zink untuk wanita remaja hingga dewasa adalah 8 mg per harinya."
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -437,16 +449,16 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Sumber makanan yang mengandung seng antara lain ikan, kerang, daging, dan kacang-kacangan."
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="3. selenium"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -456,7 +468,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Berdasarkan dari AKG 2019, kebutuhan selenium untuk wanita remaja hingga dewasa adalah 24 – 25 mcg per harinya."
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -466,16 +478,16 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Sumber makanan yang mengandung selenium adalah daging, telur, kerrang, biji-bijian dan padi-padian"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="4. Kalsium"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -485,7 +497,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Kalsium merupakan mineral makro yang penting dalam perkembangan tulang pada janin. Pentingnya mencukupi kebutuhan kalsium sejak sebelum periode kehamilan karena apabila tidak tersedia cukup kalsium maka janin akan mengambil kalsium dari cadangan kalsium pada tulang ibu."
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -496,7 +508,7 @@
 
                     android:text="Berdasarkan AKG 2019, kebutuhan kalsium untuk wanita remaja hingga dewasa adalah 1000 mg per harinya."
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -506,7 +518,7 @@
                     android:fontFamily="@font/hnregular"
 android:text="Sumber utama kalsium adalah susu dan hasil olahannya, sumber lainnya dapat diperoleh dari serealia."
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
 
             </LinearLayout>
             <TextView

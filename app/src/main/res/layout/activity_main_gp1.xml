@@ -120,7 +120,7 @@
                 android:fontFamily="@font/hnregular"
                 android:text="@string/pengertian_gizi"
                 android:textColor="@color/rodok_black"
-                android:textSize="12dp"/>
+                android:textSize="14dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -141,12 +141,12 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="14dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/hnmedium"
                 android:text="a. Karakteristik Fisiologis"
                 android:textColor="@color/black"
-                android:textSize="12dp"/>
+                android:textSize="14dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -156,16 +156,16 @@
                 android:fontFamily="@font/hnregular"
                 android:text="@string/karakteristik_fisiologis"
                 android:textColor="@color/rodok_black"
-                android:textSize="12dp"/>
+                android:textSize="14dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="14dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/hnmedium"
                 android:text="b. Karakteristik Sosial"
                 android:textColor="@color/black"
-                android:textSize="12dp"/>
+                android:textSize="14dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -180,17 +180,17 @@
 \n  4)	individu akan memulai menentukan keinginan dan minat dengan pasangan hidupnya, serta mulai mengabaikan hak-hak pribadi karena yang menjadi kepentingan utama adalah keluarga
 "
                 android:textColor="@color/rodok_black"
-                android:textSize="12dp"/>
+                android:textSize="14dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="14dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/hnmedium"
                 android:text="c. Karakteristik Psikologis"
                 android:textColor="@color/black"
-                android:textSize="12dp"/>
+                android:textSize="14dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -200,7 +200,7 @@
                 android:fontFamily="@font/hnregular"
                 android:text="@string/karakter_sos_jelasno"
                 android:textColor="@color/rodok_black"
-                android:textSize="12dp"/>
+                android:textSize="14dp"/>
         </LinearLayout>
             <TextView
                 android:layout_width="match_parent"

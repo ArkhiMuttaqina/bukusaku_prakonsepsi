@@ -37,13 +37,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="18dp"
-                android:layout_marginEnd="16dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="5dp"
                 android:fontFamily="@font/hnregular"
                 android:text="@string/imt1"
                 android:textColor="@color/white"
-                android:textSize="12dp"/>
+                android:textSize="14dp"/>
             <ImageView
                 android:layout_width="196dp"
                 android:layout_height="88dp"
@@ -54,14 +54,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginEnd="12dp"
+                android:layout_marginEnd="14dp"
                 android:fontFamily="@font/hnmedium"
                 android:layout_marginTop="5dp"
                 android:layout_gravity="center"
                 android:textAlignment="center"
                 android:text="Klasifikasi Ambang Batas IMT Asia (WHO)"
                 android:textColor="@color/white"
-                android:textSize="12dp"/>
+                android:textSize="14dp"/>
             <ImageView
                 android:layout_width="355dp"
                 android:layout_gravity="center"

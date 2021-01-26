@@ -108,18 +108,18 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/adabeberapas"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="Karbohidrat"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <ImageView
                     android:layout_gravity="center"
                     android:layout_width="375dp"
@@ -135,7 +135,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/kab_1"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -145,16 +145,16 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/kab_2"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="Protein"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <ImageView
                     android:layout_gravity="center"
                     android:layout_width="375dp"
@@ -170,7 +170,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/prot_1iwi"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp" />
+                    android:textSize="14dp" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -181,16 +181,16 @@
                     android:fontFamily="@font/hnregular"
                     android:text="Sumber : Daging, telur, ikan, kacang-kacangan"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="14dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/hnmedium"
                     android:text="Lemak"
                     android:textColor="@color/black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
                 <ImageView
                     android:layout_gravity="center"
                     android:layout_width="375dp"
@@ -206,7 +206,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/fats_17815"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp" />
+                    android:textSize="14dp" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -217,7 +217,7 @@
                     android:fontFamily="@font/hnregular"
                     android:text="@string/sumber_fatsss_01917"
                     android:textColor="@color/rodok_black"
-                    android:textSize="12dp"/>
+                    android:textSize="14dp"/>
 
 
             </LinearLayout>

@@ -42,13 +42,14 @@
     <string name="rlpp">Pengukuran rasio lingkar pinggang dan panggul bertujuan untuk mengetahui status obesitas sentral atau abdominal dengan cara mengukur rasio lingkar pinggang berdasarkan lingkar panggul. Nilai ambang batas untuk wanita usia subur adalah 0,85.</string>
     <string name="lmktubh">Pengukuran presentase lemak tubuh digunakan untuk memperkirakan jumlah lemak dalam tubuh berdasarkan lemak yang ada di bawah kulit.</string>
     <string name="faktor_berikur">Dieny, Ayu, dan Dewi (2019:21) menjelaskan bahwa status gizi dapat dipengaruhi oleh dua faktor, yaitu faktor internal dan eksternal. </string>
-    <string name="pndptn">Status gizi seseorag dapat bergantung dengan pendapatan, karena apabila pendapatan suatu rumah tangga rendah maka akses atau daya beli juga akan rendah</string>
+    <string name="pndptn">Status gizi seseorang dapat bergantung dengan pendapatan, karena apabila pendapatan suatu rumah tangga rendah maka akses atau daya beli juga akan rendah</string>
     <string name="pndidikan">Pendidikan dapat mempengaruhi status gizi dikarenakan apabila seseorang memiliki pendidikan yang rendah secara tidak langsung maka akan berdampak pada pendapatan. Selain itu pentingnya pendidikan juga berhubungan dengan pengetahuan, sikap dan perilaku terhadap pendidikan gizi.</string>
     <string name="pkrjaan">Apabila seseorang memiliki pekerjaan yang kurang menunjang maka juga akan mempengaruhi taraf hidup rumah tangga tersebut.</string>
     <string name="budya">Budaya berpengaruh karena terkait kebiasaan seseorang karena tingkah laku yang dianggap benar akan selalu diulang-ulang</string>
     <string name="usia">Usia berhubungan dengan kemampuan atau pengalaman orang tua dalam mempertahankan status gizi anggota keluarganya.</string>
-    <string name="asupan">Asupan memiliki peran sangat penting dalam mempengaruhi status gizi seseorang. Konsumsi makanan yang kurang dan infeksi merupakan hal yang sangat memepngaruhi.</string>
+    <string name="asupan">Asupan memiliki peran sangat penting dalam mempengaruhi status gizi seseorang. Konsumsi makanan yang kurang dan infeksi merupakan hal yang sangat memepengaruhi.</string>
     <string name="inpeksi">Infeksi Infeksi dan demam dapat menyebabkan kesulitan dalam mengunyah ataupun menelan atau mencerna makanan dan menimbulkan menurunnya nafsu makan.</string>
     <string name="llaaaaaa"><![CDATA[LLA<23,5cm]]></string>
     <string name="tentangpeneliti">Methania Nanda Augustine adalah mahasiswa program studi S1 Ilmu Gizi Universitas Negeri Surabaya angkatan 2017 yang akan melakukan penelitian terkait pentingnya pendidikan prakonsepsi yang wajib didapatkan oleh calon pengantin.</string>
+    <string name="rev1_kebut"><b>Kebutuhan energi</b> berdasarkan Angka Kecukupan Gizi (AKG) 2019 untuk wanita remaja-dewasa yaitu sebesar <b>2100 - 2250 kkal.</b></string>
 </resources>
